@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUSTOM SELCTION</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: bisque;
+        }
+        p{
+            font-size: 40px;
+        }
+        ::selection{
+            background: rgb(142, 238, 171);
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p class="custom-select">SELECT SOME OF THE TEXT</p>
+    </section>
+</body>
+</html>
